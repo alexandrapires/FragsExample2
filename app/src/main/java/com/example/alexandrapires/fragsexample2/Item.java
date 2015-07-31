@@ -7,7 +7,6 @@ import android.graphics.drawable.Drawable;
  */
  
  // Change made on server test
- //second change test
 public class Item {
 
     int id;
