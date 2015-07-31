@@ -11,10 +11,9 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-
+//Changed: 1st change after putting the project in github
 public class MainActivity extends FragmentActivity implements ItemFragment.OnFragmentInteractionListener   {
 
-    ImageView imMenu = null;
 
     ItemFragment itemFrag;
 
@@ -52,14 +51,11 @@ public class MainActivity extends FragmentActivity implements ItemFragment.OnFra
     public void transListAndGrid()
     {
         FragmentManager fm =  getFragmentManager();
-
-
         itemFrag =  (ItemFragment) fm.findFragmentByTag("ItemFragment");
-        if(itemFrag.getIsList())
-            itemFrag.setIsList(false);  //change to grid if is list
-        else
-            itemFrag.setIsList(true);   //change to list if is grid
 
+        //equivalent to if
+        boolean value = itemFrag.getIsList() ? false : true;
+        itemFrag.setIsList(value);
 
         fm.beginTransaction()
                 .detach(itemFrag)   //detach and attach causes refresh view (don't use replace in this case, because it's the same fragment
@@ -70,11 +66,9 @@ public class MainActivity extends FragmentActivity implements ItemFragment.OnFra
 
 
 
-
     @Override
     public void onFragmentInteraction(String id){
 
-        String x = id;
 
     }
 
