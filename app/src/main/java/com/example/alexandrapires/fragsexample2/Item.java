@@ -5,6 +5,8 @@ import android.graphics.drawable.Drawable;
 /**
  * Created by alexandrapires on 7/22/15.
  */
+ 
+ // Change made on server test
 public class Item {
 
     int id;
