@@ -11,8 +11,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-//Changed: 1st change after putting the project in github
-//changed locally second time
 public class MainActivity extends FragmentActivity implements ItemFragment.OnFragmentInteractionListener   {
 
 
