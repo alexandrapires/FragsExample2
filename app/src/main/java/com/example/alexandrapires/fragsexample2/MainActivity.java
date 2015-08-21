@@ -8,6 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+//this was changed on server second time
 //changed on server
 // changed local
 //this was changed on server second time
