@@ -8,7 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-
+//ch2 - server change
 public class MainActivity extends FragmentActivity implements ItemFragment.OnFragmentInteractionListener   {
 
     ItemFragment itemFrag;
