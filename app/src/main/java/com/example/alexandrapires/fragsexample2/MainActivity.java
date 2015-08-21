@@ -8,10 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-//change 1 - server change
-//change 2 - local change
-//change 4 - local change to test merging
-//change 3 - server change to test merging
+
 public class MainActivity extends FragmentActivity implements ItemFragment.OnFragmentInteractionListener   {
 
     ItemFragment itemFrag;
