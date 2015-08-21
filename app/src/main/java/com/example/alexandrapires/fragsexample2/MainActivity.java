@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 //change 1 - to be merged from server
 //change 2 - local change
+//change 4 - local change to test merging
 public class MainActivity extends FragmentActivity implements ItemFragment.OnFragmentInteractionListener   {
 
     ItemFragment itemFrag;
