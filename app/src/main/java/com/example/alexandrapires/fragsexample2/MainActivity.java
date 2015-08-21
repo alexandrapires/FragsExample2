@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 //changed on server
 // changed local
+//this was changed on server second time
 public class MainActivity extends FragmentActivity implements ItemFragment.OnFragmentInteractionListener   {
 
     ItemFragment itemFrag;
