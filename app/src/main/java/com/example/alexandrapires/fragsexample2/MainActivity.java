@@ -11,7 +11,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-//changed on server
+//this was changed on server second time
 public class MainActivity extends FragmentActivity implements ItemFragment.OnFragmentInteractionListener   {
 
     ImageView imMenu = null;
